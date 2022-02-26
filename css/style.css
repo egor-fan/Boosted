@@ -18,7 +18,7 @@ ul li,
 }
 
 .container{
-  max-width: 1440px;
+  max-width: 1520px;
   margin: 0 auto;
 }
 
@@ -163,7 +163,7 @@ h1{
 }
 .electric{
   background: url("../img/bgElectric.png")0 0/contain no-repeat;
-  height: 736px;
+  height: 776px;
   margin-bottom: 44px;
 }
 .electric__text1,
@@ -218,13 +218,13 @@ h1{
   width: 100px;
 }
 .bg1{
-  background: url("../img/shopImg1.png")0 0/100% 100% no-repeat;
+  background: url("../img/shopImg1.png")0 0/cover no-repeat;
 }
 .bg2{
-  background: url("../img/shopImg2.png")0 0/100% 100% no-repeat;
+  background: url("../img/shopImg2.png")0 0/cover no-repeat;
 }
 .bg3{
-  background: url("../img/shopImg3.png")0 0/100% 100% no-repeat;
+  background: url("../img/shopImg3.png")0 0/cover no-repeat;
 }
 .shop__bg h3{
   font-size: 25px;
@@ -232,7 +232,7 @@ h1{
   text-align: center;
   color: #FFFFFF;
   margin-bottom: 15px;
-  padding: 208px 130px 0;
+  padding: 208px 143px 0;
 }
 
 .shop__bg-text{
@@ -246,6 +246,7 @@ h1{
 .shop{
   display: flex;
   margin-bottom: 55px;
+  justify-content: center;
 }
 .sectionVideo{
   display: flex;
