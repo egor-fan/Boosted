@@ -752,4 +752,10 @@ h1{
   .header__burger {
     left: 10%;
   }
+  .pay img {
+    width: 30px;
+  }
+  .copy ul, .pay ul {
+    justify-content: center;
+  }
 }
